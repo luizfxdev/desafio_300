@@ -135,36 +135,51 @@ cavaleiro-challenge/
 1. **Restrição de Movimento**
    
 Problema: Algoritmo permite apenas movimentos ortogonais (↑ ↓ ← →)
+
 Impacto: Impossibilita formação de palavras com movimentos mais complexos
+
 Exemplo: Palavras como "PALHAÇADA" não podem ser formadas devido à rigidez dos movimentos
 
 3. **Complexidade Computacional**
    
 Desafio: Algoritmo DFS com backtracking tem complexidade exponencial O(4^n)
+
 Consequências:
+
 Alto consumo de memória
+
 Tempo de processamento aumenta rapidamente com matrizes maiores
+
 Potencial travamento em matrizes extensas
 
 5. **Limitação na Geração de Matrizes**
    
 Problema: Sistema gera matrizes aleatórias que nem sempre são úteis
+
 Riscos:
+
 Preenchimento com letras aleatórias pode tornar impossível formar palavras
+
 Não há garantia de formação da palavra desejada
 
 7. **Escopo Restrito de Palavras**
    
 Limitação: Algoritmo eficiente apenas para palavras específicas como "CAVALEIRO"
+
 Restrições:
+
 Palavras complexas exigem matrizes muito específicas
+
 Não há flexibilidade para palavras com movimentos não-ortogonais
 
 9. **Processamento de Caracteres Especiais**
     
 Desafio: Tratamento limitado para caracteres como "Ç" e acentuados
+
 Potenciais Erros:
+
 Possível perda ou má interpretação de caracteres especiais
+
 Necessidade de normalização de caracteres
 
 ## 🛠️ Possíveis Melhorias
