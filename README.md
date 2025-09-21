@@ -178,18 +178,31 @@ Permitir saltos não-adjacentes
 Criar modo flexível de movimentação
 
 Otimização de Desempenho
+
 Implementar podas no algoritmo
+
 Usar memoização para reduzir processamentos repetitivos
+
 Limitar profundidade de busca
+
 Geração Inteligente de Matrizes
+
 Algoritmo para garantir formação da palavra
+
 Preferência por matrizes com maior probabilidade de sucesso
+
 Suporte Avançado a Caracteres
+
 Normalização de caracteres especiais
+
 Tratamento robusto de acentuação e caracteres unicode
+
 Modo de Depuração e Estatísticas
+
 Adicionar métricas de desempenho
+
 Visualização detalhada dos caminhos explorados
+
 Opção de configuração de algoritmo
 
 ## 🎲 Desafios para Desenvolvimento Futuro
