@@ -197,17 +197,17 @@ cavaleiro-challenge/
 
 1. **Restrição de Movimento**
    
-Problema: Algoritmo permite apenas movimentos ortogonais (↑ ↓ ← →)
+**Problema:** Algoritmo permite apenas movimentos ortogonais (↑ ↓ ← →)
 
-Impacto: Impossibilita formação de palavras com movimentos mais complexos
+**Impacto:** Impossibilita formação de palavras com movimentos mais complexos
 
-Exemplo: Palavras como "PALHAÇADA" não podem ser formadas devido à rigidez dos movimentos
+**Exemplo:** Palavras como "PALHAÇADA" não podem ser formadas devido à rigidez dos movimentos
 
 3. **Complexidade Computacional**
    
-Desafio: Algoritmo DFS com backtracking tem complexidade exponencial O(4^n)
+**Desafio:** Algoritmo DFS com backtracking tem complexidade exponencial O(4^n)
 
-Consequências:
+**Consequências:**
 
 Alto consumo de memória
 
@@ -217,9 +217,9 @@ Potencial travamento em matrizes extensas
 
 5. **Limitação na Geração de Matrizes**
    
-Problema: Sistema gera matrizes aleatórias que nem sempre são úteis
+**Problema:** Sistema gera matrizes aleatórias que nem sempre são úteis
 
-Riscos:
+**Riscos:**
 
 Preenchimento com letras aleatórias pode tornar impossível formar palavras
 
@@ -227,9 +227,9 @@ Não há garantia de formação da palavra desejada
 
 7. **Escopo Restrito de Palavras**
    
-Limitação: Algoritmo eficiente apenas para palavras específicas como "CAVALEIRO"
+**Limitação:** Algoritmo eficiente apenas para palavras específicas como "CAVALEIRO"
 
-Restrições:
+**Restrições:**
 
 Palavras complexas exigem matrizes muito específicas
 
@@ -237,59 +237,14 @@ Não há flexibilidade para palavras com movimentos não-ortogonais
 
 9. **Processamento de Caracteres Especiais**
     
-Desafio: Tratamento limitado para caracteres como "Ç" e acentuados
+**Desafio:** Tratamento limitado para caracteres como "Ç" e acentuados
 
-Potenciais Erros:
+**Potenciais Erros:**
 
 Possível perda ou má interpretação de caracteres especiais
 
 Necessidade de normalização de caracteres
 
-## 🛠️ Possíveis Melhorias
-
-Expansão de Movimentos
-
-Implementar movimentos em diagonal
-
-Permitir saltos não-adjacentes
-
-Criar modo flexível de movimentação
-
-Otimização de Desempenho
-
-Implementar podas no algoritmo
-
-Usar memoização para reduzir processamentos repetitivos
-
-Limitar profundidade de busca
-
-Geração Inteligente de Matrizes
-
-Algoritmo para garantir formação da palavra
-
-Preferência por matrizes com maior probabilidade de sucesso
-
-Suporte Avançado a Caracteres
-
-Normalização de caracteres especiais
-
-Tratamento robusto de acentuação e caracteres unicode
-
-Modo de Depuração e Estatísticas
-
-Adicionar métricas de desempenho
-
-Visualização detalhada dos caminhos explorados
-
-Opção de configuração de algoritmo
-
-## 🎲 Desafios para Desenvolvimento Futuro
-
-[ ] Implementar movimentos em 8 direções (estilo movimento de cavalo no xadrez)
-
-[ ] Criar modo competitivo com geração de palavras aleatórias
-
-[ ] Adicionar níveis de dificuldade com restrições variáveis
 
 ## 🌟 Recursos Visuais
 
