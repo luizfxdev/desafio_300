@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Missão Épica: O Caminho do Cavaleiro ⚔️</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Vídeo de fundo -->
+    <video id="background-video" autoplay muted loop>
+      <source src="assets/background.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeo HTML5.
+    </video>
+
+    <!-- Container principal do desafio -->
+    <div class="challenge-container">
+      <div class="header">
+        <h1>O Caminho do Cavaleiro ⚔️</h1>
+        <p>Decifre o enigma sagrado e encontre a palavra que você busca no mosaico mágico!</p>
+      </div>
+
+      <!-- Input para entrada de dados -->
+      <div class="input-section">
+        <label for="matrix-input">📜 Insira a matriz ou lista de letras:</label>
+        <textarea
+          id="matrix-input"
+          placeholder="Formato 1 - Matriz JSON: [["C","A","V"],["E","L","A"],["I","R","O"]]
+          rows="4"
+        ></textarea>
+        <small
+          >Aceita matriz JSON ou lista de letras separadas por vírgula. O sistema detecta automaticamente o
+          formato.</small
+        >
+      </div>
+
+      <!-- Área dos botões -->
+      <div class="buttons-section">
+        <button id="start-btn" class="glow-on-hover" type="button">⚔️ INICIAR BUSCA</button>
+        <button id="back-btn" class="glow-on-hover" type="button">🔄 VOLTAR</button>
+      </div>
+
+      <!-- Seção de resultado -->
+      <div id="result-section" class="result-section">
+        <h3>🏆 Resultado da Missão</h3>
+        <div id="result-content" class="result-content">
+          <!-- Resultado será inserido aqui -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
