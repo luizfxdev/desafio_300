@@ -12,7 +12,7 @@ O objetivo é determinar se é possível formar a palavra "CAVALEIRO" em uma mat
 - 📝 Palavra deve ser formada na ordem exata: **C → A → V → A → L → E → I → R → O**
 - 🏆 Resultado: `"Sim"` se encontrou o caminho, `"Não"` caso contrário
 
-  ### 🚨 Observações Importantes sobre o Desafio
+## 🚨 Observações Importantes sobre o Desafio
 
 Tudo leva a crer que o desafio, ou pelo menos o exemplo fornecido, está de fato incorreto para a palavra "CAVALEIRO".
 
